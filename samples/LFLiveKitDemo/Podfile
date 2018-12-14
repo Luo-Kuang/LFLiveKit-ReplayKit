@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'LFLiveKitDemo' do
+    inhibit_all_warnings!
+    pod 'LFLiveKit-ReplayKit', :path => '../../.'
+end
+
+target 'Recoder' do
+    inhibit_all_warnings!
+    pod 'LFLiveKit-ReplayKit', :path => '../../.'
+end

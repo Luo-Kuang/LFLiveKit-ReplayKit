@@ -1,0 +1,1145 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020AA5BA13642AE878A75FFF00D8E0DF /* LFLiveVideoConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = B16D12F33EC7B1CE7648515B6226F1D6 /* LFLiveVideoConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0270858C9C9E4A45359D268919E2D7C5 /* NSMutableArray+LFAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1167705D059D85EF6B17C6BE2133A630 /* NSMutableArray+LFAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		02F66BC5F53496C51168004346E04F2C /* LFAVEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9596A3038CB1BB159C6CB84970DB3A /* LFAVEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		087972FF2EA2018433678611E25A716A /* rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = C9E26CB803A45D1A83B99E82A2E84E97 /* rtmp.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0BF940E6D1ABF1168D0C50113C414E5C /* LFStreamRtmpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 99131F2875F909F2DE20712B2362B6EE /* LFStreamRtmpSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0C2A7A068244505F8CE6249E670258C1 /* LFAudioFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F7556BAB7E04EE09D82F64FBF28FE8 /* LFAudioFrame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0CF1F4727FCE40B91BDF8218B87BC01A /* LFHardwareAudioEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F08D4E2EB736A11C9E233C5F68883AC /* LFHardwareAudioEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D35B05335AEB25C8D706F148E6E5FAE /* parseurl.c in Sources */ = {isa = PBXBuildFile; fileRef = AC2981E08CFC64BB415D29C51837F897 /* parseurl.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0DDBD1D84423FBD0CA6FF7781D173424 /* LFVideoFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2977EA9514565B8366E105EF45ED44D7 /* LFVideoFrame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		11139D83C41BD65C89887733D2EA09A0 /* LFLiveStreamInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F15AA88F32C7B45A628F1177B59811 /* LFLiveStreamInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A9EC7C035ED2D1D6C4E5BED5C661058 /* LFLiveAudioConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BE7C861DF7602F0D15438C9915C08 /* LFLiveAudioConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1D5890FE9C83DA317C0561109881CB5F /* LFH264VideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22677F3BA114DFA3596A3892C27364E2 /* LFH264VideoEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		222BC3ACECE744B3EA297F29FAA451B4 /* amf.h in Headers */ = {isa = PBXBuildFile; fileRef = E95CDD1FA404606C70E65558D0003959 /* amf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22A1F567C6CABDC908C80383B0E9B411 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4F5BEBAE63CAA7BA60209AFFE04ABD /* error.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2329E841AB9A8F8C65CDA8E2FEE19231 /* LFLiveSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B6902C81268147C5921DE887EC84A71D /* LFLiveSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		266B8D03B7DFA6D9695D8D926842174C /* LFStreamingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 910D973D8B125CE924C7BB9AC54C2C57 /* LFStreamingBuffer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		29802D763134418E13614678B0A6E3F6 /* rtmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 10275EB5D382EC86D78B303A5445A2D5 /* rtmp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31E6607A628BA301F4598BB530A0FC11 /* LFHardwareVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DFF2FA7A2FFEBBABFE4514178ABB6D /* LFHardwareVideoEncoder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		32D5826DD9C78C923DAC645929C73258 /* NSMutableArray+LFAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1167705D059D85EF6B17C6BE2133A630 /* NSMutableArray+LFAdd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34E6BC5EB9654DCC105FD802B1D7DE19 /* NSMutableArray+LFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D37B68692AAD4FDAAC2F6B9F0D5DC /* NSMutableArray+LFAdd.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3737779C85E7D8BEB43AFDA941BB98D6 /* LFH264VideoEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28C20A3C10A7DE14B1C557C71984F797 /* LFH264VideoEncoder.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3784F43BBE7462C2D3E109875D8AE230 /* LFHardwareAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7477867A8D3A0DF81E2D22E20B09C4 /* LFHardwareAudioEncoder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		378B5E07267BEAA59A19C0BE0C8C076A /* LFStreamingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F09787F65E8B10646D084C90112AB800 /* LFStreamingBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A790BDA5A840B96095E1D97F7F7859C /* NSMutableArray+LFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 010D37B68692AAD4FDAAC2F6B9F0D5DC /* NSMutableArray+LFAdd.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3CB5248FDCE4F03E4550DDFCCCD7F6C6 /* LFNALUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB379FBF885515253B668853D4B1B05 /* LFNALUnit.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3D044BA7F066E8CFD5373BB00225B87C /* LFHardwareAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7477867A8D3A0DF81E2D22E20B09C4 /* LFHardwareAudioEncoder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3F1E7BB48DA231BB189C55BF46E40E2F /* LFAudioFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F7556BAB7E04EE09D82F64FBF28FE8 /* LFAudioFrame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		40D87CF2F4B4157C18CD8567C8829802 /* LFFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF3E80189D658098C32030EE5801E6A /* LFFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		439B494A7B1CB99A7BB50188DDBBD1D8 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = 852190F576A475BC54BCAD312F2F2FE5 /* log.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		444D7BE9D15AE58156ABD67B678B31F5 /* LFH264VideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22677F3BA114DFA3596A3892C27364E2 /* LFH264VideoEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44B4264393FC0AD84C950373C7C1BE90 /* Pods-LFLiveKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F9A6A3270F8F98037097818C6CB835 /* Pods-LFLiveKitDemo-dummy.m */; };
+		44EB82444F453EEC35BF2D5FA9807208 /* LFVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECBEE34A9844ED1FBFDFF4A67E754 /* LFVideoEncoder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		452E43F52DBA0E1C52C7FD48AD79447F /* hashswf.c in Sources */ = {isa = PBXBuildFile; fileRef = 51003AA396A4385B9319C5BE38A292B0 /* hashswf.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4752EAA8BA0BA9D904C8BD66946C265A /* LFStreamSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E401535AA2955054ED15A50E3667E7 /* LFStreamSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4991BA2C69974F773B1E0EF77C177BE1 /* LFHardwareAudioEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F08D4E2EB736A11C9E233C5F68883AC /* LFHardwareAudioEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C4CDC3518D1EFDA7A0E9B2B4D8EE01C /* LFMP4Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADDC5CAF68F2FB3BA2478AD8C4A595B /* LFMP4Atom.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4C72990623BEB1A6C8D7C031F02AFF0F /* parseurl.c in Sources */ = {isa = PBXBuildFile; fileRef = AC2981E08CFC64BB415D29C51837F897 /* parseurl.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4E6AF02D25A8500AD7632696BC6581D2 /* dh.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAB052BDECC2E7E6EF9152D7EE4F653 /* dh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50540961F8038817638C9950909AD74F /* LFVideoFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2977EA9514565B8366E105EF45ED44D7 /* LFVideoFrame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		51B4DA87C1D65FC8BC2829193BF08B82 /* amf.h in Headers */ = {isa = PBXBuildFile; fileRef = E95CDD1FA404606C70E65558D0003959 /* amf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5451707324E7C85E3704513C476251D6 /* LFHardwareVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DFF2FA7A2FFEBBABFE4514178ABB6D /* LFHardwareVideoEncoder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D41D7694D29A7BA95B0DCC5E338B9E3 /* LFAVEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9596A3038CB1BB159C6CB84970DB3A /* LFAVEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5DB623E4165E2362AD96ACD9F3E4FFA4 /* dhgroups.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FA79EE669795B24833A6C40453A31B /* dhgroups.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E3C60937562DB79ADC32413F9636D8A /* Pods-Recoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C011642309D1C01DE69FE3B0B62D71 /* Pods-Recoder-dummy.m */; };
+		5EDED4123E4DB650EE61E917D26BE019 /* LFFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF3E80189D658098C32030EE5801E6A /* LFFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61F5689AB73CC4479547CE3DB4FC8301 /* amf.c in Sources */ = {isa = PBXBuildFile; fileRef = 84C889282BC8F064A9EA786280A4FF6E /* amf.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		65F801984DA3A908C701281EEA5A3431 /* LFStreamingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F09787F65E8B10646D084C90112AB800 /* LFStreamingBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69195DF2BCFCFA034A5E6AF7AAC10B85 /* bytes.h in Headers */ = {isa = PBXBuildFile; fileRef = 67AFBDE648D26A728CC0651B589B3E7F /* bytes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A618EF98AA6D6FBC54A33F5DFB93D5B /* LFVideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B746D7FE98AE9DF138C69E0F978FFC8C /* LFVideoEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A747E55DE775B30678297BC3CF9C669 /* dh.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAB052BDECC2E7E6EF9152D7EE4F653 /* dh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B6B08F9A13ECF9A6C549A5416ED5679 /* LFStreamRTMPSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AD64E04A8C0E6C857616BAA210D8BD /* LFStreamRTMPSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C0EA3281E58BD5E4D044654B7353FDF /* bytes.h in Headers */ = {isa = PBXBuildFile; fileRef = 67AFBDE648D26A728CC0651B589B3E7F /* bytes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70872A47F2413E3A3B6CDED5D4273F23 /* LFLiveVideoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCCAFFCC3C871D45381D24948FF7F94 /* LFLiveVideoConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		712E79B085B248B2AEB89584D50E2FDC /* LFStreamingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 910D973D8B125CE924C7BB9AC54C2C57 /* LFStreamingBuffer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		744F9754EB8FBB491D93C99D197BCC31 /* LFLiveKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C688547ACE65D48D9F28C179BF44DDC9 /* LFLiveKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		749F71348383E934E7213D9858ED367C /* http.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0ACB00255A0523D118D0CF200CAC7B /* http.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76EE783C29A755ADE7D18846BA6AAE3E /* LFLiveStreamInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6F8D5A14A1DEAA81C74B086CD20525 /* LFLiveStreamInfo.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		79AA5CA84C6C11EB14215F775F2F14AA /* rtmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 10275EB5D382EC86D78B303A5445A2D5 /* rtmp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D0AE846ABADC71AF581135CC2447C85 /* LFLiveStreamInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F15AA88F32C7B45A628F1177B59811 /* LFLiveStreamInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E7F3B76C9C38990DA6C1A94936989BA /* LFHardwareVideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7289D43E4E4032573994121760A5ABB1 /* LFHardwareVideoEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80FA794C1F9293F605D961ACB5F60BFF /* LFLiveDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A062A9764663CC7DB96855B699DBA9 /* LFLiveDebug.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		826926A8E147BFEF5A4A02F1B44B5357 /* LFMP4Atom.h in Headers */ = {isa = PBXBuildFile; fileRef = C6144208BE3EA7CA59FDEEC87452B78A /* LFMP4Atom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83A684333F71DD78CE5193C62B281C87 /* rtmp_sys.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9BF532ACAB271A2917465424E6B728 /* rtmp_sys.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8533AE43D8A62EF9DEF9BB31A9B91881 /* LFNALUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB379FBF885515253B668853D4B1B05 /* LFNALUnit.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		88574DD31DCF6CEFB02369407BF7F073 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C34D35C029FAD961085AF1231B2C8D /* error.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8E85C85B472AD2CF7199C82BD8A8059F /* LFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A93B973C3928A968190BA655A52434 /* LFFrame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8F15B73FFA7CF02E1F4980A8E1AF7857 /* LFLiveKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C688547ACE65D48D9F28C179BF44DDC9 /* LFLiveKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F345FA2EC4051F84DE64CF0A56CC174 /* amf.c in Sources */ = {isa = PBXBuildFile; fileRef = 84C889282BC8F064A9EA786280A4FF6E /* amf.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8FE2AA10904D67B83D8D0A88B7422EA7 /* LFStreamSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E401535AA2955054ED15A50E3667E7 /* LFStreamSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9239B1D8A072CA482BEBDDCABCDFBAAB /* LFMP4Atom.h in Headers */ = {isa = PBXBuildFile; fileRef = C6144208BE3EA7CA59FDEEC87452B78A /* LFMP4Atom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		928B8F7F719E1F6676FBF604152B4922 /* LFLiveAudioConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1BE7C861DF7602F0D15438C9915C08 /* LFLiveAudioConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		96C657254FF68B8465A4F8F46B1BDF22 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = 852190F576A475BC54BCAD312F2F2FE5 /* log.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98994837F7D9EF9114B5D14C94B3BB3C /* LFVideoEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E640F4F1184581FD1119316E9B77A7DB /* LFVideoEncoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C004D1ED30A8D1D07980D65F8E44762 /* LFLiveSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8591454713C4721F49F19BC5DA8D4B52 /* LFLiveSession.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D338876AF6978DC75CBE660708F4A18 /* LFNALUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC631789668FB469681E6B5017C498F /* LFNALUnit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EB26AB0D1407990D9DFAAD44CF823AE /* LFLiveSession.h in Headers */ = {isa = PBXBuildFile; fileRef = B6902C81268147C5921DE887EC84A71D /* LFLiveSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F8B987A5BC5A9E3E55A904970219687 /* handshake.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF9F218AB58A428504968E4284F0629 /* handshake.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A824678D22B822B6D3CA19A2F9A7C295 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EE544C77C133453BC1BE746AD0CB8FB /* log.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A852C358082AE85977A95206597F5E45 /* LFAudioFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 8320C66C65CC682B69E9CE1966055C8B /* LFAudioFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8E8EF81942D2DE7399E7818B1144183 /* rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = C9E26CB803A45D1A83B99E82A2E84E97 /* rtmp.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A94D94F47B6E8591405B5BC5F527493A /* LFLiveAudioConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = EF52057C8AEFCC50E7060325614EB68C /* LFLiveAudioConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC4F8F714CE32B0935E31C42411997FF /* LFLiveStreamInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6F8D5A14A1DEAA81C74B086CD20525 /* LFLiveStreamInfo.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B1D1A65B71C68D31EFF43D31F2E2F81F /* handshake.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF9F218AB58A428504968E4284F0629 /* handshake.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2C2993938CA87EAA8DCBAC12BF46D40 /* LFLiveVideoConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = B16D12F33EC7B1CE7648515B6226F1D6 /* LFLiveVideoConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3162EC8F2E27EB10B0C3E9D5D992143 /* LFLiveDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A37E110E874CB1F2038EFFAC7DB1CD3 /* LFLiveDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3D67CFB3B3963B8E87D6CE020F18536 /* rtmp_sys.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9BF532ACAB271A2917465424E6B728 /* rtmp_sys.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4ACF8BAF6744FB67394090F85C8DD62 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EE544C77C133453BC1BE746AD0CB8FB /* log.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BD031E941D501EC53A9F6B05B10FA28F /* LFLiveDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A37E110E874CB1F2038EFFAC7DB1CD3 /* LFLiveDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE0F82BFFD7A231E4E3D661B8A7161A2 /* LFMP4Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADDC5CAF68F2FB3BA2478AD8C4A595B /* LFMP4Atom.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BF0E30D7EC092DC666CD89E867F9D8E8 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4F5BEBAE63CAA7BA60209AFFE04ABD /* error.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4AC936A64A532DA3A5C2C2EC249CC55 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 03C34D35C029FAD961085AF1231B2C8D /* error.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C620B846895F6AF8BAFD1F5D75A7EDA6 /* LFH264VideoEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28C20A3C10A7DE14B1C557C71984F797 /* LFH264VideoEncoder.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C8F5A782AFD8C76223A06CB755436061 /* dhgroups.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FA79EE669795B24833A6C40453A31B /* dhgroups.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA1F9E0EEC936BCF871DC20E3C8AABBB /* LFAudioEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C81018D51B83EF73A44B1DCAB8F08CEA /* LFAudioEncoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA37C563B05239F43949852110099738 /* LFLiveAudioConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = EF52057C8AEFCC50E7060325614EB68C /* LFLiveAudioConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB63D60877B6C1DA2614C8413C5873D6 /* LFVideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B746D7FE98AE9DF138C69E0F978FFC8C /* LFVideoEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB878B66DB5D6B5B5FA6259EC60C2B78 /* LFStreamRTMPSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AD64E04A8C0E6C857616BAA210D8BD /* LFStreamRTMPSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF7161255A0BB1BFCB050BCBB66F85D8 /* LFNALUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC631789668FB469681E6B5017C498F /* LFNALUnit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0F590056880E75D61194741FCE29A81 /* LFLiveKit-ReplayKit-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6196F5957972F875CEC17467D2C3A821 /* LFLiveKit-ReplayKit-iOS8.0-dummy.m */; };
+		D406842F89FF64B40530CDBE14A07C1F /* LFAudioFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 8320C66C65CC682B69E9CE1966055C8B /* LFAudioFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D612F7A3217E5193B753BCFBD75D5943 /* LFLiveSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 8591454713C4721F49F19BC5DA8D4B52 /* LFLiveSession.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D6D9F751E44B9F7012DEAC25425E81F5 /* LFStreamRtmpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 99131F2875F909F2DE20712B2362B6EE /* LFStreamRtmpSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D7F77D0CE982C907FCA16A9717F36119 /* LFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A93B973C3928A968190BA655A52434 /* LFFrame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D9AC9CA26F16509C8BBBB255164E3389 /* LFHardwareVideoEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7289D43E4E4032573994121760A5ABB1 /* LFHardwareVideoEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA2E3B55512350D0A8908BF95C000CF3 /* LFLiveKit-ReplayKit-iOS11.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EF230D7DBA83FDE3AA5523F4AA4310 /* LFLiveKit-ReplayKit-iOS11.0-dummy.m */; };
+		DC3BC4B2D11155930AC5D32F156885B6 /* LFVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECBEE34A9844ED1FBFDFF4A67E754 /* LFVideoEncoder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DE6746CA1AA8A5143FC9B18A5FD6E49D /* http.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0ACB00255A0523D118D0CF200CAC7B /* http.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF218BDD14AF5169F3E7F9E917DCF8E7 /* LFVideoFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 772E0BCE7357478377E29FD9DA59BC9A /* LFVideoFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5089201D5787CAC9D894705DE4FF29F /* LFLiveDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A062A9764663CC7DB96855B699DBA9 /* LFLiveDebug.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F008D10D2A6DBACA89FDA32B966349E6 /* LFVideoFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 772E0BCE7357478377E29FD9DA59BC9A /* LFVideoFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F03ACF520D6268508A9BE573048621D5 /* LFVideoEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E640F4F1184581FD1119316E9B77A7DB /* LFVideoEncoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F24716317F809E9CCF35E098D13C0777 /* hashswf.c in Sources */ = {isa = PBXBuildFile; fileRef = 51003AA396A4385B9319C5BE38A292B0 /* hashswf.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F71A3B14BFA1BE90BE022E4910313F5E /* LFAVEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2150B1C2CD20BE711416DDA1647B5 /* LFAVEncoder.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F9476C90ADFF83A37173755C4B80A1F0 /* LFAudioEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C81018D51B83EF73A44B1DCAB8F08CEA /* LFAudioEncoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FDC394696335FC25FF2CDBA0349F6398 /* LFLiveVideoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCCAFFCC3C871D45381D24948FF7F94 /* LFLiveVideoConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FF0615AAC4AF5E03CB776624F6152FA4 /* LFAVEncoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2150B1C2CD20BE711416DDA1647B5 /* LFAVEncoder.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		683B254F84BC56083F95AE9CA8028A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C8A8C25A736BEE2D369DDE66A2A2A4;
+			remoteInfo = "LFLiveKit-ReplayKit-iOS11.0";
+		};
+		97B4CD63E466DA8C27E7D1D9A60AEF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC89CEFA4CB3F2A2B53F6E5A44B2EA6;
+			remoteInfo = "LFLiveKit-ReplayKit-iOS8.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010D37B68692AAD4FDAAC2F6B9F0D5DC /* NSMutableArray+LFAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LFAdd.m"; sourceTree = "<group>"; };
+		03C34D35C029FAD961085AF1231B2C8D /* error.c */ = {isa = PBXFileReference; includeInIndex = 1; path = error.c; sourceTree = "<group>"; };
+		08AD64E04A8C0E6C857616BAA210D8BD /* LFStreamRTMPSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFStreamRTMPSocket.h; sourceTree = "<group>"; };
+		0922405F87B42084E9940EB194B763D4 /* LFLiveKit-ReplayKit-iOS11.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFLiveKit-ReplayKit-iOS11.0-prefix.pch"; sourceTree = "<group>"; };
+		0A37E110E874CB1F2038EFFAC7DB1CD3 /* LFLiveDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFLiveDebug.h; sourceTree = "<group>"; };
+		0AF3E80189D658098C32030EE5801E6A /* LFFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFFrame.h; sourceTree = "<group>"; };
+		0DE4B345A8792BFD51EA3D6CDBA3203D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		10275EB5D382EC86D78B303A5445A2D5 /* rtmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
+		1167705D059D85EF6B17C6BE2133A630 /* NSMutableArray+LFAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LFAdd.h"; sourceTree = "<group>"; };
+		14E401535AA2955054ED15A50E3667E7 /* LFStreamSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFStreamSocket.h; sourceTree = "<group>"; };
+		1A6F8D5A14A1DEAA81C74B086CD20525 /* LFLiveStreamInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFLiveStreamInfo.m; sourceTree = "<group>"; };
+		1ADDC5CAF68F2FB3BA2478AD8C4A595B /* LFMP4Atom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFMP4Atom.m; sourceTree = "<group>"; };
+		1C111E8524FD5C165DDB47B99C0A0D32 /* Pods-LFLiveKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFLiveKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		22677F3BA114DFA3596A3892C27364E2 /* LFH264VideoEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFH264VideoEncoder.h; sourceTree = "<group>"; };
+		28C20A3C10A7DE14B1C557C71984F797 /* LFH264VideoEncoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = LFH264VideoEncoder.mm; sourceTree = "<group>"; };
+		2977EA9514565B8366E105EF45ED44D7 /* LFVideoFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFVideoFrame.m; sourceTree = "<group>"; };
+		2B10A04C73F8969E2201258414B669BA /* Pods-Recoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recoder.release.xcconfig"; sourceTree = "<group>"; };
+		2EF9F218AB58A428504968E4284F0629 /* handshake.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = handshake.h; sourceTree = "<group>"; };
+		2F08D4E2EB736A11C9E233C5F68883AC /* LFHardwareAudioEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFHardwareAudioEncoder.h; sourceTree = "<group>"; };
+		334ECBEE34A9844ED1FBFDFF4A67E754 /* LFVideoEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFVideoEncoder.m; sourceTree = "<group>"; };
+		3AB379FBF885515253B668853D4B1B05 /* LFNALUnit.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = LFNALUnit.cpp; sourceTree = "<group>"; };
+		43F15AA88F32C7B45A628F1177B59811 /* LFLiveStreamInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFLiveStreamInfo.h; sourceTree = "<group>"; };
+		4BB3C6DD5836BD733EBE0D7408CE8CD0 /* Pods-Recoder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Recoder-acknowledgements.plist"; sourceTree = "<group>"; };
+		51003AA396A4385B9319C5BE38A292B0 /* hashswf.c */ = {isa = PBXFileReference; includeInIndex = 1; path = hashswf.c; sourceTree = "<group>"; };
+		55B64F4FCC278CE1B4F3747415D0D559 /* LFLiveKit-ReplayKit-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LFLiveKit-ReplayKit-iOS8.0.xcconfig"; path = "../LFLiveKit-ReplayKit-iOS8.0/LFLiveKit-ReplayKit-iOS8.0.xcconfig"; sourceTree = "<group>"; };
+		5D1BE7C861DF7602F0D15438C9915C08 /* LFLiveAudioConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFLiveAudioConfiguration.m; sourceTree = "<group>"; };
+		6196F5957972F875CEC17467D2C3A821 /* LFLiveKit-ReplayKit-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LFLiveKit-ReplayKit-iOS8.0-dummy.m"; path = "../LFLiveKit-ReplayKit-iOS8.0/LFLiveKit-ReplayKit-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		663D0BB55FCC2A17CF76BE21D8EFD51E /* libLFLiveKit-ReplayKit-iOS11.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libLFLiveKit-ReplayKit-iOS11.0.a"; path = "libLFLiveKit-ReplayKit-iOS11.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AFBDE648D26A728CC0651B589B3E7F /* bytes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bytes.h; sourceTree = "<group>"; };
+		6EE544C77C133453BC1BE746AD0CB8FB /* log.c */ = {isa = PBXFileReference; includeInIndex = 1; path = log.c; sourceTree = "<group>"; };
+		6F0ACB00255A0523D118D0CF200CAC7B /* http.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		6FAB052BDECC2E7E6EF9152D7EE4F653 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		7289D43E4E4032573994121760A5ABB1 /* LFHardwareVideoEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFHardwareVideoEncoder.h; sourceTree = "<group>"; };
+		73C396E3005525405A2AFA911CC45D1D /* Pods-LFLiveKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LFLiveKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		772E0BCE7357478377E29FD9DA59BC9A /* LFVideoFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFVideoFrame.h; sourceTree = "<group>"; };
+		7DB2150B1C2CD20BE711416DDA1647B5 /* LFAVEncoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = LFAVEncoder.mm; sourceTree = "<group>"; };
+		7DD04BA3612D71C3EF223E3318888F0F /* LFLiveKit-ReplayKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "LFLiveKit-ReplayKit.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8320C66C65CC682B69E9CE1966055C8B /* LFAudioFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFAudioFrame.h; sourceTree = "<group>"; };
+		84A062A9764663CC7DB96855B699DBA9 /* LFLiveDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFLiveDebug.m; sourceTree = "<group>"; };
+		84C889282BC8F064A9EA786280A4FF6E /* amf.c */ = {isa = PBXFileReference; includeInIndex = 1; path = amf.c; sourceTree = "<group>"; };
+		852190F576A475BC54BCAD312F2F2FE5 /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		8591454713C4721F49F19BC5DA8D4B52 /* LFLiveSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFLiveSession.m; path = "LFLiveKit-ReplayKit/LFLiveSession.m"; sourceTree = "<group>"; };
+		8E7477867A8D3A0DF81E2D22E20B09C4 /* LFHardwareAudioEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFHardwareAudioEncoder.m; sourceTree = "<group>"; };
+		910D973D8B125CE924C7BB9AC54C2C57 /* LFStreamingBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFStreamingBuffer.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EF230D7DBA83FDE3AA5523F4AA4310 /* LFLiveKit-ReplayKit-iOS11.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFLiveKit-ReplayKit-iOS11.0-dummy.m"; sourceTree = "<group>"; };
+		98F9A6A3270F8F98037097818C6CB835 /* Pods-LFLiveKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LFLiveKitDemo-dummy.m"; sourceTree = "<group>"; };
+		99131F2875F909F2DE20712B2362B6EE /* LFStreamRtmpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFStreamRtmpSocket.m; sourceTree = "<group>"; };
+		9E158662CB0859C8314A53E199EF36AA /* Pods-LFLiveKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LFLiveKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5F7556BAB7E04EE09D82F64FBF28FE8 /* LFAudioFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFAudioFrame.m; sourceTree = "<group>"; };
+		AB4F5BEBAE63CAA7BA60209AFFE04ABD /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		AB5067CF24E662816D87883375AF31EB /* LFLiveKit-ReplayKit-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LFLiveKit-ReplayKit-iOS8.0-prefix.pch"; path = "../LFLiveKit-ReplayKit-iOS8.0/LFLiveKit-ReplayKit-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
+		ABD5E9CDD56F93E9B502D34B612CE397 /* Pods-Recoder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Recoder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC2981E08CFC64BB415D29C51837F897 /* parseurl.c */ = {isa = PBXFileReference; includeInIndex = 1; path = parseurl.c; sourceTree = "<group>"; };
+		B16D12F33EC7B1CE7648515B6226F1D6 /* LFLiveVideoConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFLiveVideoConfiguration.h; sourceTree = "<group>"; };
+		B6902C81268147C5921DE887EC84A71D /* LFLiveSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFLiveSession.h; path = "LFLiveKit-ReplayKit/LFLiveSession.h"; sourceTree = "<group>"; };
+		B746D7FE98AE9DF138C69E0F978FFC8C /* LFVideoEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFVideoEncoder.h; sourceTree = "<group>"; };
+		BC3115CED6C4113DF544890F4F71586C /* libLFLiveKit-ReplayKit-iOS8.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libLFLiveKit-ReplayKit-iOS8.0.a"; path = "libLFLiveKit-ReplayKit-iOS8.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC631789668FB469681E6B5017C498F /* LFNALUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFNALUnit.h; sourceTree = "<group>"; };
+		C1F38D8CD9250C5466806D600FA060BD /* LFLiveKit-ReplayKit-iOS11.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LFLiveKit-ReplayKit-iOS11.0.xcconfig"; sourceTree = "<group>"; };
+		C29F38A8BE9BD5F1898ED89271ADA376 /* Pods-LFLiveKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LFLiveKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C6144208BE3EA7CA59FDEEC87452B78A /* LFMP4Atom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFMP4Atom.h; sourceTree = "<group>"; };
+		C688547ACE65D48D9F28C179BF44DDC9 /* LFLiveKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFLiveKit.h; path = "LFLiveKit-ReplayKit/LFLiveKit.h"; sourceTree = "<group>"; };
+		C81018D51B83EF73A44B1DCAB8F08CEA /* LFAudioEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFAudioEncoding.h; sourceTree = "<group>"; };
+		C9E26CB803A45D1A83B99E82A2E84E97 /* rtmp.c */ = {isa = PBXFileReference; includeInIndex = 1; path = rtmp.c; sourceTree = "<group>"; };
+		CC9596A3038CB1BB159C6CB84970DB3A /* LFAVEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFAVEncoder.h; sourceTree = "<group>"; };
+		CD6239648D8C14C4127CD13274AE8F92 /* Pods-Recoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Recoder.debug.xcconfig"; sourceTree = "<group>"; };
+		D1C011642309D1C01DE69FE3B0B62D71 /* Pods-Recoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Recoder-dummy.m"; sourceTree = "<group>"; };
+		D46C5D7705FC1DB7F7D5E804DAFF6B13 /* libPods-Recoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Recoder.a"; path = "libPods-Recoder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A93B973C3928A968190BA655A52434 /* LFFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFFrame.m; sourceTree = "<group>"; };
+		DBCCAFFCC3C871D45381D24948FF7F94 /* LFLiveVideoConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFLiveVideoConfiguration.m; sourceTree = "<group>"; };
+		E1D948AE4689B5E1216248EB6492A10B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E4FA79EE669795B24833A6C40453A31B /* dhgroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dhgroups.h; sourceTree = "<group>"; };
+		E640F4F1184581FD1119316E9B77A7DB /* LFVideoEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFVideoEncoding.h; sourceTree = "<group>"; };
+		E95CDD1FA404606C70E65558D0003959 /* amf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
+		EF52057C8AEFCC50E7060325614EB68C /* LFLiveAudioConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFLiveAudioConfiguration.h; sourceTree = "<group>"; };
+		EFFFE09F6AAFDB3154EF201590BF9613 /* libPods-LFLiveKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LFLiveKitDemo.a"; path = "libPods-LFLiveKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09787F65E8B10646D084C90112AB800 /* LFStreamingBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LFStreamingBuffer.h; sourceTree = "<group>"; };
+		F8DFF2FA7A2FFEBBABFE4514178ABB6D /* LFHardwareVideoEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LFHardwareVideoEncoder.m; sourceTree = "<group>"; };
+		FB9BF532ACAB271A2917465424E6B728 /* rtmp_sys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rtmp_sys.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		619D8B2F530B25DD9E4C04261EC734DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981A10CEC35172D18F1D7D560D376DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE86493C909325F020D5E31A24323F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC2E0A91F315CB27B69893012832C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00BB0738CC298742AF76914614CBE3FB /* Pods-LFLiveKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				73C396E3005525405A2AFA911CC45D1D /* Pods-LFLiveKitDemo-acknowledgements.markdown */,
+				9E158662CB0859C8314A53E199EF36AA /* Pods-LFLiveKitDemo-acknowledgements.plist */,
+				98F9A6A3270F8F98037097818C6CB835 /* Pods-LFLiveKitDemo-dummy.m */,
+				C29F38A8BE9BD5F1898ED89271ADA376 /* Pods-LFLiveKitDemo.debug.xcconfig */,
+				1C111E8524FD5C165DDB47B99C0A0D32 /* Pods-LFLiveKitDemo.release.xcconfig */,
+			);
+			name = "Pods-LFLiveKitDemo";
+			path = "Target Support Files/Pods-LFLiveKitDemo";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1981208DD153B1FDECCD8546EC8B21AF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7B6097CFE1997A893C449D712FB0F77C /* pili-librtmp */,
+			);
+			name = Vendor;
+			path = "LFLiveKit-ReplayKit/Vendor";
+			sourceTree = "<group>";
+		};
+		1A852B50C21E2C09924AA16DDD118E77 /* H264 */ = {
+			isa = PBXGroup;
+			children = (
+				CC9596A3038CB1BB159C6CB84970DB3A /* LFAVEncoder.h */,
+				7DB2150B1C2CD20BE711416DDA1647B5 /* LFAVEncoder.mm */,
+				C6144208BE3EA7CA59FDEEC87452B78A /* LFMP4Atom.h */,
+				1ADDC5CAF68F2FB3BA2478AD8C4A595B /* LFMP4Atom.m */,
+				3AB379FBF885515253B668853D4B1B05 /* LFNALUnit.cpp */,
+				BCC631789668FB469681E6B5017C498F /* LFNALUnit.h */,
+				B746D7FE98AE9DF138C69E0F978FFC8C /* LFVideoEncoder.h */,
+				334ECBEE34A9844ED1FBFDFF4A67E754 /* LFVideoEncoder.m */,
+			);
+			name = H264;
+			path = H264;
+			sourceTree = "<group>";
+		};
+		38EBF005CD33E80B2EE2F612371BC8C6 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				8320C66C65CC682B69E9CE1966055C8B /* LFAudioFrame.h */,
+				A5F7556BAB7E04EE09D82F64FBF28FE8 /* LFAudioFrame.m */,
+				0AF3E80189D658098C32030EE5801E6A /* LFFrame.h */,
+				D5A93B973C3928A968190BA655A52434 /* LFFrame.m */,
+				0A37E110E874CB1F2038EFFAC7DB1CD3 /* LFLiveDebug.h */,
+				84A062A9764663CC7DB96855B699DBA9 /* LFLiveDebug.m */,
+				43F15AA88F32C7B45A628F1177B59811 /* LFLiveStreamInfo.h */,
+				1A6F8D5A14A1DEAA81C74B086CD20525 /* LFLiveStreamInfo.m */,
+				772E0BCE7357478377E29FD9DA59BC9A /* LFVideoFrame.h */,
+				2977EA9514565B8366E105EF45ED44D7 /* LFVideoFrame.m */,
+			);
+			name = objects;
+			path = "LFLiveKit-ReplayKit/objects";
+			sourceTree = "<group>";
+		};
+		4E1AE811DF350BE4A9CC26090166611F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00BB0738CC298742AF76914614CBE3FB /* Pods-LFLiveKitDemo */,
+				A25F9C3C58F34EEFAE8B1F6EB39139BE /* Pods-Recoder */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		68D1896C486EDC22A61DA5A1EDC266F8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7DD04BA3612D71C3EF223E3318888F0F /* LFLiveKit-ReplayKit.podspec */,
+				E1D948AE4689B5E1216248EB6492A10B /* LICENSE */,
+				0DE4B345A8792BFD51EA3D6CDBA3203D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B6097CFE1997A893C449D712FB0F77C /* pili-librtmp */ = {
+			isa = PBXGroup;
+			children = (
+				84C889282BC8F064A9EA786280A4FF6E /* amf.c */,
+				E95CDD1FA404606C70E65558D0003959 /* amf.h */,
+				67AFBDE648D26A728CC0651B589B3E7F /* bytes.h */,
+				6FAB052BDECC2E7E6EF9152D7EE4F653 /* dh.h */,
+				E4FA79EE669795B24833A6C40453A31B /* dhgroups.h */,
+				03C34D35C029FAD961085AF1231B2C8D /* error.c */,
+				AB4F5BEBAE63CAA7BA60209AFFE04ABD /* error.h */,
+				2EF9F218AB58A428504968E4284F0629 /* handshake.h */,
+				51003AA396A4385B9319C5BE38A292B0 /* hashswf.c */,
+				6F0ACB00255A0523D118D0CF200CAC7B /* http.h */,
+				6EE544C77C133453BC1BE746AD0CB8FB /* log.c */,
+				852190F576A475BC54BCAD312F2F2FE5 /* log.h */,
+				AC2981E08CFC64BB415D29C51837F897 /* parseurl.c */,
+				C9E26CB803A45D1A83B99E82A2E84E97 /* rtmp.c */,
+				10275EB5D382EC86D78B303A5445A2D5 /* rtmp.h */,
+				FB9BF532ACAB271A2917465424E6B728 /* rtmp_sys.h */,
+			);
+			name = "pili-librtmp";
+			path = "pili-librtmp";
+			sourceTree = "<group>";
+		};
+		7D23E316961AA3E92A7BF7EDBAFF0E61 /* LFLiveKit-ReplayKit */ = {
+			isa = PBXGroup;
+			children = (
+				C688547ACE65D48D9F28C179BF44DDC9 /* LFLiveKit.h */,
+				B6902C81268147C5921DE887EC84A71D /* LFLiveSession.h */,
+				8591454713C4721F49F19BC5DA8D4B52 /* LFLiveSession.m */,
+				A9CDFC6A94040E249B7ABFB7ECACEFD1 /* coder */,
+				F7ACF273A59441346C913FD86C2E66C0 /* configuration */,
+				38EBF005CD33E80B2EE2F612371BC8C6 /* objects */,
+				68D1896C486EDC22A61DA5A1EDC266F8 /* Pod */,
+				9953BF265AE63D6B89A3E0EFB089CFCE /* publish */,
+				A56219B32F3D47440B500A0EDAC486F4 /* Support Files */,
+				1981208DD153B1FDECCD8546EC8B21AF /* Vendor */,
+			);
+			name = "LFLiveKit-ReplayKit";
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B85308D3A468F5CFBB0B5DE848CC6DDE /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				954D30AFEEBD49B618520E2D634F4AFA /* Products */,
+				4E1AE811DF350BE4A9CC26090166611F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		954D30AFEEBD49B618520E2D634F4AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663D0BB55FCC2A17CF76BE21D8EFD51E /* libLFLiveKit-ReplayKit-iOS11.0.a */,
+				BC3115CED6C4113DF544890F4F71586C /* libLFLiveKit-ReplayKit-iOS8.0.a */,
+				EFFFE09F6AAFDB3154EF201590BF9613 /* libPods-LFLiveKitDemo.a */,
+				D46C5D7705FC1DB7F7D5E804DAFF6B13 /* libPods-Recoder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9953BF265AE63D6B89A3E0EFB089CFCE /* publish */ = {
+			isa = PBXGroup;
+			children = (
+				F09787F65E8B10646D084C90112AB800 /* LFStreamingBuffer.h */,
+				910D973D8B125CE924C7BB9AC54C2C57 /* LFStreamingBuffer.m */,
+				08AD64E04A8C0E6C857616BAA210D8BD /* LFStreamRTMPSocket.h */,
+				99131F2875F909F2DE20712B2362B6EE /* LFStreamRtmpSocket.m */,
+				14E401535AA2955054ED15A50E3667E7 /* LFStreamSocket.h */,
+				1167705D059D85EF6B17C6BE2133A630 /* NSMutableArray+LFAdd.h */,
+				010D37B68692AAD4FDAAC2F6B9F0D5DC /* NSMutableArray+LFAdd.m */,
+			);
+			name = publish;
+			path = "LFLiveKit-ReplayKit/publish";
+			sourceTree = "<group>";
+		};
+		A25F9C3C58F34EEFAE8B1F6EB39139BE /* Pods-Recoder */ = {
+			isa = PBXGroup;
+			children = (
+				ABD5E9CDD56F93E9B502D34B612CE397 /* Pods-Recoder-acknowledgements.markdown */,
+				4BB3C6DD5836BD733EBE0D7408CE8CD0 /* Pods-Recoder-acknowledgements.plist */,
+				D1C011642309D1C01DE69FE3B0B62D71 /* Pods-Recoder-dummy.m */,
+				CD6239648D8C14C4127CD13274AE8F92 /* Pods-Recoder.debug.xcconfig */,
+				2B10A04C73F8969E2201258414B669BA /* Pods-Recoder.release.xcconfig */,
+			);
+			name = "Pods-Recoder";
+			path = "Target Support Files/Pods-Recoder";
+			sourceTree = "<group>";
+		};
+		A56219B32F3D47440B500A0EDAC486F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1F38D8CD9250C5466806D600FA060BD /* LFLiveKit-ReplayKit-iOS11.0.xcconfig */,
+				95EF230D7DBA83FDE3AA5523F4AA4310 /* LFLiveKit-ReplayKit-iOS11.0-dummy.m */,
+				0922405F87B42084E9940EB194B763D4 /* LFLiveKit-ReplayKit-iOS11.0-prefix.pch */,
+				55B64F4FCC278CE1B4F3747415D0D559 /* LFLiveKit-ReplayKit-iOS8.0.xcconfig */,
+				6196F5957972F875CEC17467D2C3A821 /* LFLiveKit-ReplayKit-iOS8.0-dummy.m */,
+				AB5067CF24E662816D87883375AF31EB /* LFLiveKit-ReplayKit-iOS8.0-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "samples/LFLiveKitDemo/Pods/Target Support Files/LFLiveKit-ReplayKit-iOS11.0";
+			sourceTree = "<group>";
+		};
+		A9CDFC6A94040E249B7ABFB7ECACEFD1 /* coder */ = {
+			isa = PBXGroup;
+			children = (
+				C81018D51B83EF73A44B1DCAB8F08CEA /* LFAudioEncoding.h */,
+				22677F3BA114DFA3596A3892C27364E2 /* LFH264VideoEncoder.h */,
+				28C20A3C10A7DE14B1C557C71984F797 /* LFH264VideoEncoder.mm */,
+				2F08D4E2EB736A11C9E233C5F68883AC /* LFHardwareAudioEncoder.h */,
+				8E7477867A8D3A0DF81E2D22E20B09C4 /* LFHardwareAudioEncoder.m */,
+				7289D43E4E4032573994121760A5ABB1 /* LFHardwareVideoEncoder.h */,
+				F8DFF2FA7A2FFEBBABFE4514178ABB6D /* LFHardwareVideoEncoder.m */,
+				E640F4F1184581FD1119316E9B77A7DB /* LFVideoEncoding.h */,
+				1A852B50C21E2C09924AA16DDD118E77 /* H264 */,
+			);
+			name = coder;
+			path = "LFLiveKit-ReplayKit/coder";
+			sourceTree = "<group>";
+		};
+		B85308D3A468F5CFBB0B5DE848CC6DDE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D23E316961AA3E92A7BF7EDBAFF0E61 /* LFLiveKit-ReplayKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F7ACF273A59441346C913FD86C2E66C0 /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				EF52057C8AEFCC50E7060325614EB68C /* LFLiveAudioConfiguration.h */,
+				5D1BE7C861DF7602F0D15438C9915C08 /* LFLiveAudioConfiguration.m */,
+				B16D12F33EC7B1CE7648515B6226F1D6 /* LFLiveVideoConfiguration.h */,
+				DBCCAFFCC3C871D45381D24948FF7F94 /* LFLiveVideoConfiguration.m */,
+			);
+			name = configuration;
+			path = "LFLiveKit-ReplayKit/configuration";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07E58F69B446CD08D0B3A7E87336A257 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222BC3ACECE744B3EA297F29FAA451B4 /* amf.h in Headers */,
+				69195DF2BCFCFA034A5E6AF7AAC10B85 /* bytes.h in Headers */,
+				4E6AF02D25A8500AD7632696BC6581D2 /* dh.h in Headers */,
+				5DB623E4165E2362AD96ACD9F3E4FFA4 /* dhgroups.h in Headers */,
+				BF0E30D7EC092DC666CD89E867F9D8E8 /* error.h in Headers */,
+				9F8B987A5BC5A9E3E55A904970219687 /* handshake.h in Headers */,
+				DE6746CA1AA8A5143FC9B18A5FD6E49D /* http.h in Headers */,
+				CA1F9E0EEC936BCF871DC20E3C8AABBB /* LFAudioEncoding.h in Headers */,
+				A852C358082AE85977A95206597F5E45 /* LFAudioFrame.h in Headers */,
+				5D41D7694D29A7BA95B0DCC5E338B9E3 /* LFAVEncoder.h in Headers */,
+				40D87CF2F4B4157C18CD8567C8829802 /* LFFrame.h in Headers */,
+				444D7BE9D15AE58156ABD67B678B31F5 /* LFH264VideoEncoder.h in Headers */,
+				4991BA2C69974F773B1E0EF77C177BE1 /* LFHardwareAudioEncoder.h in Headers */,
+				D9AC9CA26F16509C8BBBB255164E3389 /* LFHardwareVideoEncoder.h in Headers */,
+				CA37C563B05239F43949852110099738 /* LFLiveAudioConfiguration.h in Headers */,
+				B3162EC8F2E27EB10B0C3E9D5D992143 /* LFLiveDebug.h in Headers */,
+				8F15B73FFA7CF02E1F4980A8E1AF7857 /* LFLiveKit.h in Headers */,
+				2329E841AB9A8F8C65CDA8E2FEE19231 /* LFLiveSession.h in Headers */,
+				7D0AE846ABADC71AF581135CC2447C85 /* LFLiveStreamInfo.h in Headers */,
+				B2C2993938CA87EAA8DCBAC12BF46D40 /* LFLiveVideoConfiguration.h in Headers */,
+				826926A8E147BFEF5A4A02F1B44B5357 /* LFMP4Atom.h in Headers */,
+				CF7161255A0BB1BFCB050BCBB66F85D8 /* LFNALUnit.h in Headers */,
+				378B5E07267BEAA59A19C0BE0C8C076A /* LFStreamingBuffer.h in Headers */,
+				CB878B66DB5D6B5B5FA6259EC60C2B78 /* LFStreamRTMPSocket.h in Headers */,
+				4752EAA8BA0BA9D904C8BD66946C265A /* LFStreamSocket.h in Headers */,
+				6A618EF98AA6D6FBC54A33F5DFB93D5B /* LFVideoEncoder.h in Headers */,
+				F03ACF520D6268508A9BE573048621D5 /* LFVideoEncoding.h in Headers */,
+				F008D10D2A6DBACA89FDA32B966349E6 /* LFVideoFrame.h in Headers */,
+				96C657254FF68B8465A4F8F46B1BDF22 /* log.h in Headers */,
+				0270858C9C9E4A45359D268919E2D7C5 /* NSMutableArray+LFAdd.h in Headers */,
+				29802D763134418E13614678B0A6E3F6 /* rtmp.h in Headers */,
+				83A684333F71DD78CE5193C62B281C87 /* rtmp_sys.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B46F040A786D189FE8EF50E0C89082 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B4DA87C1D65FC8BC2829193BF08B82 /* amf.h in Headers */,
+				6C0EA3281E58BD5E4D044654B7353FDF /* bytes.h in Headers */,
+				6A747E55DE775B30678297BC3CF9C669 /* dh.h in Headers */,
+				C8F5A782AFD8C76223A06CB755436061 /* dhgroups.h in Headers */,
+				22A1F567C6CABDC908C80383B0E9B411 /* error.h in Headers */,
+				B1D1A65B71C68D31EFF43D31F2E2F81F /* handshake.h in Headers */,
+				749F71348383E934E7213D9858ED367C /* http.h in Headers */,
+				F9476C90ADFF83A37173755C4B80A1F0 /* LFAudioEncoding.h in Headers */,
+				D406842F89FF64B40530CDBE14A07C1F /* LFAudioFrame.h in Headers */,
+				02F66BC5F53496C51168004346E04F2C /* LFAVEncoder.h in Headers */,
+				5EDED4123E4DB650EE61E917D26BE019 /* LFFrame.h in Headers */,
+				1D5890FE9C83DA317C0561109881CB5F /* LFH264VideoEncoder.h in Headers */,
+				0CF1F4727FCE40B91BDF8218B87BC01A /* LFHardwareAudioEncoder.h in Headers */,
+				7E7F3B76C9C38990DA6C1A94936989BA /* LFHardwareVideoEncoder.h in Headers */,
+				A94D94F47B6E8591405B5BC5F527493A /* LFLiveAudioConfiguration.h in Headers */,
+				BD031E941D501EC53A9F6B05B10FA28F /* LFLiveDebug.h in Headers */,
+				744F9754EB8FBB491D93C99D197BCC31 /* LFLiveKit.h in Headers */,
+				9EB26AB0D1407990D9DFAAD44CF823AE /* LFLiveSession.h in Headers */,
+				11139D83C41BD65C89887733D2EA09A0 /* LFLiveStreamInfo.h in Headers */,
+				020AA5BA13642AE878A75FFF00D8E0DF /* LFLiveVideoConfiguration.h in Headers */,
+				9239B1D8A072CA482BEBDDCABCDFBAAB /* LFMP4Atom.h in Headers */,
+				9D338876AF6978DC75CBE660708F4A18 /* LFNALUnit.h in Headers */,
+				65F801984DA3A908C701281EEA5A3431 /* LFStreamingBuffer.h in Headers */,
+				6B6B08F9A13ECF9A6C549A5416ED5679 /* LFStreamRTMPSocket.h in Headers */,
+				8FE2AA10904D67B83D8D0A88B7422EA7 /* LFStreamSocket.h in Headers */,
+				CB63D60877B6C1DA2614C8413C5873D6 /* LFVideoEncoder.h in Headers */,
+				98994837F7D9EF9114B5D14C94B3BB3C /* LFVideoEncoding.h in Headers */,
+				DF218BDD14AF5169F3E7F9E917DCF8E7 /* LFVideoFrame.h in Headers */,
+				439B494A7B1CB99A7BB50188DDBBD1D8 /* log.h in Headers */,
+				32D5826DD9C78C923DAC645929C73258 /* NSMutableArray+LFAdd.h in Headers */,
+				79AA5CA84C6C11EB14215F775F2F14AA /* rtmp.h in Headers */,
+				B3D67CFB3B3963B8E87D6CE020F18536 /* rtmp_sys.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584C12E5A1E72BF4FD3B0843B49F289D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA44BC311A9F87EEA711C40DC2951B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17C8A8C25A736BEE2D369DDE66A2A2A4 /* LFLiveKit-ReplayKit-iOS11.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D4C7D36944AF7FE76C8833D773B1A4 /* Build configuration list for PBXNativeTarget "LFLiveKit-ReplayKit-iOS11.0" */;
+			buildPhases = (
+				30B46F040A786D189FE8EF50E0C89082 /* Headers */,
+				1E2928B56B8CF66F64176551307CB39B /* Sources */,
+				CE86493C909325F020D5E31A24323F28 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LFLiveKit-ReplayKit-iOS11.0";
+			productName = "LFLiveKit-ReplayKit-iOS11.0";
+			productReference = 663D0BB55FCC2A17CF76BE21D8EFD51E /* libLFLiveKit-ReplayKit-iOS11.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6085D26E1F7CFCDB991E32465E1618FA /* Pods-LFLiveKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4AB05B6C254B2C6904630BC94FA6E0 /* Build configuration list for PBXNativeTarget "Pods-LFLiveKitDemo" */;
+			buildPhases = (
+				5EA44BC311A9F87EEA711C40DC2951B8 /* Headers */,
+				8B87F17E446A6B68134BB801F017FBD6 /* Sources */,
+				981A10CEC35172D18F1D7D560D376DF5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B86BFEF9F2ACEBC81DA426755129682 /* PBXTargetDependency */,
+			);
+			name = "Pods-LFLiveKitDemo";
+			productName = "Pods-LFLiveKitDemo";
+			productReference = EFFFE09F6AAFDB3154EF201590BF9613 /* libPods-LFLiveKitDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6BAA5F431101BAA26B9E64EBF820606D /* Pods-Recoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCB32D23654019DF8CC361271FB14B6 /* Build configuration list for PBXNativeTarget "Pods-Recoder" */;
+			buildPhases = (
+				584C12E5A1E72BF4FD3B0843B49F289D /* Headers */,
+				496511C95D5BEA0856CCE45BDB4831F0 /* Sources */,
+				EAC2E0A91F315CB27B69893012832C94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BFC5445AB0D527781EBD2119E045EA /* PBXTargetDependency */,
+			);
+			name = "Pods-Recoder";
+			productName = "Pods-Recoder";
+			productReference = D46C5D7705FC1DB7F7D5E804DAFF6B13 /* libPods-Recoder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DAC89CEFA4CB3F2A2B53F6E5A44B2EA6 /* LFLiveKit-ReplayKit-iOS8.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74D04AFF0C7859634FFBEDD83D97E1C /* Build configuration list for PBXNativeTarget "LFLiveKit-ReplayKit-iOS8.0" */;
+			buildPhases = (
+				07E58F69B446CD08D0B3A7E87336A257 /* Headers */,
+				B48746CB423C494EB45A730BDF9E2F25 /* Sources */,
+				619D8B2F530B25DD9E4C04261EC734DF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LFLiveKit-ReplayKit-iOS8.0";
+			productName = "LFLiveKit-ReplayKit-iOS8.0";
+			productReference = BC3115CED6C4113DF544890F4F71586C /* libLFLiveKit-ReplayKit-iOS8.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 954D30AFEEBD49B618520E2D634F4AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C8A8C25A736BEE2D369DDE66A2A2A4 /* LFLiveKit-ReplayKit-iOS11.0 */,
+				DAC89CEFA4CB3F2A2B53F6E5A44B2EA6 /* LFLiveKit-ReplayKit-iOS8.0 */,
+				6085D26E1F7CFCDB991E32465E1618FA /* Pods-LFLiveKitDemo */,
+				6BAA5F431101BAA26B9E64EBF820606D /* Pods-Recoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E2928B56B8CF66F64176551307CB39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F345FA2EC4051F84DE64CF0A56CC174 /* amf.c in Sources */,
+				88574DD31DCF6CEFB02369407BF7F073 /* error.c in Sources */,
+				F24716317F809E9CCF35E098D13C0777 /* hashswf.c in Sources */,
+				3F1E7BB48DA231BB189C55BF46E40E2F /* LFAudioFrame.m in Sources */,
+				FF0615AAC4AF5E03CB776624F6152FA4 /* LFAVEncoder.mm in Sources */,
+				8E85C85B472AD2CF7199C82BD8A8059F /* LFFrame.m in Sources */,
+				C620B846895F6AF8BAFD1F5D75A7EDA6 /* LFH264VideoEncoder.mm in Sources */,
+				3784F43BBE7462C2D3E109875D8AE230 /* LFHardwareAudioEncoder.m in Sources */,
+				5451707324E7C85E3704513C476251D6 /* LFHardwareVideoEncoder.m in Sources */,
+				928B8F7F719E1F6676FBF604152B4922 /* LFLiveAudioConfiguration.m in Sources */,
+				E5089201D5787CAC9D894705DE4FF29F /* LFLiveDebug.m in Sources */,
+				DA2E3B55512350D0A8908BF95C000CF3 /* LFLiveKit-ReplayKit-iOS11.0-dummy.m in Sources */,
+				9C004D1ED30A8D1D07980D65F8E44762 /* LFLiveSession.m in Sources */,
+				AC4F8F714CE32B0935E31C42411997FF /* LFLiveStreamInfo.m in Sources */,
+				70872A47F2413E3A3B6CDED5D4273F23 /* LFLiveVideoConfiguration.m in Sources */,
+				BE0F82BFFD7A231E4E3D661B8A7161A2 /* LFMP4Atom.m in Sources */,
+				8533AE43D8A62EF9DEF9BB31A9B91881 /* LFNALUnit.cpp in Sources */,
+				266B8D03B7DFA6D9695D8D926842174C /* LFStreamingBuffer.m in Sources */,
+				D6D9F751E44B9F7012DEAC25425E81F5 /* LFStreamRtmpSocket.m in Sources */,
+				DC3BC4B2D11155930AC5D32F156885B6 /* LFVideoEncoder.m in Sources */,
+				0DDBD1D84423FBD0CA6FF7781D173424 /* LFVideoFrame.m in Sources */,
+				B4ACF8BAF6744FB67394090F85C8DD62 /* log.c in Sources */,
+				3A790BDA5A840B96095E1D97F7F7859C /* NSMutableArray+LFAdd.m in Sources */,
+				4C72990623BEB1A6C8D7C031F02AFF0F /* parseurl.c in Sources */,
+				087972FF2EA2018433678611E25A716A /* rtmp.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496511C95D5BEA0856CCE45BDB4831F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3C60937562DB79ADC32413F9636D8A /* Pods-Recoder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B87F17E446A6B68134BB801F017FBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B4264393FC0AD84C950373C7C1BE90 /* Pods-LFLiveKitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48746CB423C494EB45A730BDF9E2F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F5689AB73CC4479547CE3DB4FC8301 /* amf.c in Sources */,
+				C4AC936A64A532DA3A5C2C2EC249CC55 /* error.c in Sources */,
+				452E43F52DBA0E1C52C7FD48AD79447F /* hashswf.c in Sources */,
+				0C2A7A068244505F8CE6249E670258C1 /* LFAudioFrame.m in Sources */,
+				F71A3B14BFA1BE90BE022E4910313F5E /* LFAVEncoder.mm in Sources */,
+				D7F77D0CE982C907FCA16A9717F36119 /* LFFrame.m in Sources */,
+				3737779C85E7D8BEB43AFDA941BB98D6 /* LFH264VideoEncoder.mm in Sources */,
+				3D044BA7F066E8CFD5373BB00225B87C /* LFHardwareAudioEncoder.m in Sources */,
+				31E6607A628BA301F4598BB530A0FC11 /* LFHardwareVideoEncoder.m in Sources */,
+				1A9EC7C035ED2D1D6C4E5BED5C661058 /* LFLiveAudioConfiguration.m in Sources */,
+				80FA794C1F9293F605D961ACB5F60BFF /* LFLiveDebug.m in Sources */,
+				D0F590056880E75D61194741FCE29A81 /* LFLiveKit-ReplayKit-iOS8.0-dummy.m in Sources */,
+				D612F7A3217E5193B753BCFBD75D5943 /* LFLiveSession.m in Sources */,
+				76EE783C29A755ADE7D18846BA6AAE3E /* LFLiveStreamInfo.m in Sources */,
+				FDC394696335FC25FF2CDBA0349F6398 /* LFLiveVideoConfiguration.m in Sources */,
+				4C4CDC3518D1EFDA7A0E9B2B4D8EE01C /* LFMP4Atom.m in Sources */,
+				3CB5248FDCE4F03E4550DDFCCCD7F6C6 /* LFNALUnit.cpp in Sources */,
+				712E79B085B248B2AEB89584D50E2FDC /* LFStreamingBuffer.m in Sources */,
+				0BF940E6D1ABF1168D0C50113C414E5C /* LFStreamRtmpSocket.m in Sources */,
+				44EB82444F453EEC35BF2D5FA9807208 /* LFVideoEncoder.m in Sources */,
+				50540961F8038817638C9950909AD74F /* LFVideoFrame.m in Sources */,
+				A824678D22B822B6D3CA19A2F9A7C295 /* log.c in Sources */,
+				34E6BC5EB9654DCC105FD802B1D7DE19 /* NSMutableArray+LFAdd.m in Sources */,
+				0D35B05335AEB25C8D706F148E6E5FAE /* parseurl.c in Sources */,
+				A8E8EF81942D2DE7399E7818B1144183 /* rtmp.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B86BFEF9F2ACEBC81DA426755129682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LFLiveKit-ReplayKit-iOS8.0";
+			target = DAC89CEFA4CB3F2A2B53F6E5A44B2EA6 /* LFLiveKit-ReplayKit-iOS8.0 */;
+			targetProxy = 97B4CD63E466DA8C27E7D1D9A60AEF1F /* PBXContainerItemProxy */;
+		};
+		95BFC5445AB0D527781EBD2119E045EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LFLiveKit-ReplayKit-iOS11.0";
+			target = 17C8A8C25A736BEE2D369DDE66A2A2A4 /* LFLiveKit-ReplayKit-iOS11.0 */;
+			targetProxy = 683B254F84BC56083F95AE9CA8028A1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1938085490F28BDAEE6CC3A9879E19BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6239648D8C14C4127CD13274AE8F92 /* Pods-Recoder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29C59108951F3C0B471DE93718E1B92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B64F4FCC278CE1B4F3747415D0D559 /* LFLiveKit-ReplayKit-iOS8.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LFLiveKit-ReplayKit-iOS8.0/LFLiveKit-ReplayKit-iOS8.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LFLiveKit_ReplayKit;
+				PRODUCT_NAME = "LFLiveKit-ReplayKit-iOS8.0";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521D5A6D2FDD7EFB58EF3A50515C5D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B64F4FCC278CE1B4F3747415D0D559 /* LFLiveKit-ReplayKit-iOS8.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LFLiveKit-ReplayKit-iOS8.0/LFLiveKit-ReplayKit-iOS8.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LFLiveKit_ReplayKit;
+				PRODUCT_NAME = "LFLiveKit-ReplayKit-iOS8.0";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		732785ACFBAC3303581BA02FC09F2F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C111E8524FD5C165DDB47B99C0A0D32 /* Pods-LFLiveKitDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86A49125B6BD9240403C4D2D3A98E583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B10A04C73F8969E2201258414B669BA /* Pods-Recoder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B83DCD483B7777AB8C01AB2FF560B329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29F38A8BE9BD5F1898ED89271ADA376 /* Pods-LFLiveKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDF18733C742C17F345F7F66542F89A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F38D8CD9250C5466806D600FA060BD /* LFLiveKit-ReplayKit-iOS11.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LFLiveKit-ReplayKit-iOS11.0/LFLiveKit-ReplayKit-iOS11.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LFLiveKit_ReplayKit;
+				PRODUCT_NAME = "LFLiveKit-ReplayKit-iOS11.0";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF5E7D1E1FE0242224D35F78F4065EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F38D8CD9250C5466806D600FA060BD /* LFLiveKit-ReplayKit-iOS11.0.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LFLiveKit-ReplayKit-iOS11.0/LFLiveKit-ReplayKit-iOS11.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LFLiveKit_ReplayKit;
+				PRODUCT_NAME = "LFLiveKit-ReplayKit-iOS11.0";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CCB32D23654019DF8CC361271FB14B6 /* Build configuration list for PBXNativeTarget "Pods-Recoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1938085490F28BDAEE6CC3A9879E19BF /* Debug */,
+				86A49125B6BD9240403C4D2D3A98E583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D4C7D36944AF7FE76C8833D773B1A4 /* Build configuration list for PBXNativeTarget "LFLiveKit-ReplayKit-iOS11.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF18733C742C17F345F7F66542F89A5 /* Debug */,
+				EF5E7D1E1FE0242224D35F78F4065EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4AB05B6C254B2C6904630BC94FA6E0 /* Build configuration list for PBXNativeTarget "Pods-LFLiveKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83DCD483B7777AB8C01AB2FF560B329 /* Debug */,
+				732785ACFBAC3303581BA02FC09F2F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74D04AFF0C7859634FFBEDD83D97E1C /* Build configuration list for PBXNativeTarget "LFLiveKit-ReplayKit-iOS8.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521D5A6D2FDD7EFB58EF3A50515C5D13 /* Debug */,
+				29C59108951F3C0B471DE93718E1B92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

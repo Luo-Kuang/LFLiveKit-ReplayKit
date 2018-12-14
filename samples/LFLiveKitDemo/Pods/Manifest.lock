@@ -1,0 +1,16 @@
+PODS:
+  - LFLiveKit-ReplayKit (0.0.1)
+
+DEPENDENCIES:
+  - LFLiveKit-ReplayKit (from `../../.`)
+
+EXTERNAL SOURCES:
+  LFLiveKit-ReplayKit:
+    :path: "../../."
+
+SPEC CHECKSUMS:
+  LFLiveKit-ReplayKit: a7715109934e0b48696e3d1400d8e3dc696bbca0
+
+PODFILE CHECKSUM: 25d379fcd1c2bfab62345182bcd25199e43638cb
+
+COCOAPODS: 1.6.0.beta.1
