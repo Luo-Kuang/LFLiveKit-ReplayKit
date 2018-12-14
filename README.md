@@ -9,8 +9,6 @@ Easy For Replaykit
 
 	$ pod 'LFLiveKit-ReplayKit'
 	$ pod install
-
-	# Then, run the following command:
 	
 ### Usage example 
 	See the samples in project
