@@ -6,18 +6,18 @@ Easy For Replaykit
 ```
 
 ### Installation
-	# To integrate LFLiveKit into your Xcode project using CocoaPods, specify it in your Podfile:
-	# LFLiveKit-Recoder (2.7.5)
-	
-	$ pod 'LFLiveKit-Recoder'
+
+	$ pod 'LFLiveKit-ReplayKit'
+	$ pod install
 
 	# Then, run the following command:
-	$ pod install
 	
 ### Usage example 
 	See the samples in project
 
 #### Have Fun!!!
+
+https://www.jianshu.com/p/bbe736e7b5eb
 
 ## License
  **LFLiveKit is released under the MIT license. See LICENSE for details.**
